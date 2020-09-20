@@ -9,7 +9,7 @@ const navigation = useNavigation();
 
 const handlerOnPress = () => { 
     navigation.navigate('Home')
-    //gitbug
+    
 }
 
 
