@@ -71,6 +71,10 @@ yarn install
 yarn start
 ```
 
+## APK React-native 
+Para baixar o APK clique neste link da EXPO
+https://expo.io/artifacts/831ade8a-afc7-40eb-9ed4-19496ef48310
+
 # Autor
 
 Victor Dias Caselli Porto
