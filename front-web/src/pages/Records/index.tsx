@@ -7,7 +7,7 @@ import Pagination from './pagination';
 import Filters from '../../components/filters';
 
 
-const BASE_URL = "https://caselli-gse.herokuapp.com/";
+const BASE_URL = "https://caselli-gse.herokuapp.com";
 
 const Records = () => {
 
@@ -19,6 +19,9 @@ const Records = () => {
     useEffect(() => {
         axios.get(`${BASE_URL}/records?linesPerPage=12&page=${activePage}`)
             .then(response => setRecordsResponse(response.data))
+            .catch(response => { 
+                console.log(response)
+            })
     },[activePage]);
 
     const handlePageChange = (index: number) => {

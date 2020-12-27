@@ -23,7 +23,7 @@ const initialPieData = {
 }
 
 
-const BASE_URL = "https://caselli-gse.herokuapp.com/";
+const BASE_URL = "https://caselli-gse.herokuapp.com";
 
 const Charts = () => {
 
