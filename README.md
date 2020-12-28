@@ -1,4 +1,3 @@
->Em finalização de desenvolvimento mobile em react native
 # Big Game Survey 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/vcaselli/GameSearchEngine/blob/master/LICENSE) 
 
